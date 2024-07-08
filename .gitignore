@@ -1,0 +1,6 @@
+.venv/
+venv/
+.idea/
+*.json
+spiders/__pycache__/
+__pycache__/
