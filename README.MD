@@ -38,4 +38,5 @@ curl -X POST http://localhost:5000/run_spider/colleges
 ```shell
 curl -X POST http://localhost:5000/run_spider/colleges/<university uri>
 curl -X POST http://localhost:5000/run_spider/colleges/massachusetts-institute-of-technology
+curl -X POST http://localhost:5000/run_spider/colleges/harvard-college
 ```
