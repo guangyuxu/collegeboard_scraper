@@ -40,3 +40,9 @@ curl -X POST http://localhost:5000/run_spider/colleges/<university uri>
 curl -X POST http://localhost:5000/run_spider/colleges/massachusetts-institute-of-technology
 curl -X POST http://localhost:5000/run_spider/colleges/harvard-college
 ```
+
+# 3. Consideration in development and test
+Due to quick development, test was ignored in this quick project. While for normal case. the developing and test should follow the below steps
+* Download a couple of web pages such as https://bigfuture.collegeboard.org/colleges/massachusetts-institute-of-technology
+* Scrape local downloaded file for developing and debugging
+* Test by sampling the college pages for scraping and manual validating
