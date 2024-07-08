@@ -3,10 +3,11 @@
 SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-************
 ```
 
-* NOTE: This project is built with Flask + Scrapy + Beautifulsoup4
+* NOTE: This project is built with Flask + Scrapy + Beautifulsoup4 + scrapeops
   * Flask: provide the Restful API to trigger the scraper
   * Scrapy: The most popular scraper framework, it supports html parsing as well
   * Beautifulsoup4: The required html parser tools
+  * Scrapeops: web scraping proxy vendor, https://scrapeops.io/
 
 * NOTE: Since this app provide Restful API for triggering the scraper, additional download scripts is not necessary anymore. 
 
