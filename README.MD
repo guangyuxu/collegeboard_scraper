@@ -1,6 +1,6 @@
-* NOTE: Please register in https://scrapeops.io/ and generate api key, it used to be free with 1000 request for new users. The below is my temporary api key
+* NOTE: Please register in https://scrapeops.io/ and generate api key, it used to be free with 1000 request for new users
 ```
-SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-afe9a60b8ead
+SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-************
 ```
 
 * NOTE: This project is built with Flask + Scrapy + Beautifulsoup4
@@ -17,7 +17,7 @@ run app.py
 ```
 Environment Variable
 ```
-SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-afe9a60b8ead
+SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-************
 ```
 
 ## 2. Run in Docker
@@ -25,7 +25,7 @@ SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-afe9a60b8ead
 docker build -t gavin/collegeboard_scraper .
 docker run --init -d --rm \
 -p 5000:5000 \
--e SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-afe9a60b8ead \
+-e SCRAPEOPS_API_KEY=7aec179d-cae3-47e0-a059-************ \
 gavin/collegeboard_scraper
 ```
 
